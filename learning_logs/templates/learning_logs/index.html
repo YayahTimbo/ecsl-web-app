@@ -1,0 +1,92 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block page_header %}
+
+<div class="p-3 mb-4 bg-light border rounded-3">
+    <div class="container-fluid py-4">
+        <h1 class="display-3">Electoral Commission for Sierra Leone</h1>
+
+        <p class="lead">Citizens Engagement and Sensitization on the Implementation of the PR (District Block) Electoral
+            System across the country with funding from German Government implemented by GIZ & EPSAO/ECOWAS with the
+            ECSL.</p>
+
+        <a class="btn btn-primary btn-lg mt-1" href="#{% url 'accounts:register' %}">View More &raquo;</a>
+    </div>
+</div>
+
+<section id="features">
+    <div class="row">
+        <div class="feature-box col-lg-3">
+            <h3>13</h3>
+            <p>Presidential Candidates.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+            <h3>16</h3>
+            <p>Electoral Districts.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+            <h3>3,630</h3>
+            <p>Polling Centres Nationwide.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+            <h3>11,832</h3>
+            <p>Polling Stations Nationwide.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Citizens Engagement and Sensitization on the Implementation of the PR Electoral System
+                    at
+                    district levels across the country.</h2>
+                <img class="testimonial-image" src="/static/img/img3.jpeg" alt="">
+            </div>
+            <div class="carousel-item">
+                <h2>Citizens Engagement and Sensitization on the Implementation of the PR Electoral System
+                    at
+                    district levels across the country.</h2>
+                <img class="testimonial-image" src="/static/img/img4.jpeg" alt="">
+            </div>
+            <div class="carousel-item">
+                <h2>Citizens Engagement and Sensitization on the Implementation of the PR Electoral System
+                    at
+                    district levels across the country.</h2>
+                <img class="testimonial-image" src="/static/img/img5.jpeg" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</section>
+
+<section id="press">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+</section>
+
+<section id="cta">
+
+    <h3 class="cta-heading">Promoting Democracy Through Credible Elections.</h3>
+    <button class="btn btn-lg btn-dark mt-1" type="button">View More</button>
+    <button class="btn btn-lg btn-outline-light mt-1" type="button">Explore &raquo;</button>
+
+</section>
+
+<footer id="footer">
+
+    <p>Copyright 2023 ECSL</p>
+
+</footer>
+
+{% endblock page_header %}
